@@ -2,10 +2,10 @@
 // * Data
 // *
 const data = [
-  {"name": "Avatar", "year": 2009, "star": 4},
-  {"name": "Avengers: Endgame", "year": 2019, "star": 4},
+  {"name": "Avatar", "year": 2009, "star": 1},
+  {"name": "Avengers: Endgame", "year": 2019, "star": 3},
   {"name": "Titanic", "year": 1997, "star": 4},
-  {"name": "Star Wars: The Force Awakens", "year": 2015, "star": 4},
+  {"name": "Star Wars: The Force Awakens", "year": 2015, "star": 2 },
   {"name": "Spider-Man: No Way Home", "year": 2021, "star": 4},
   {"name": "Barbie", "year": 2023, "star": 2},
   {"name": "The Super Mario Bros. Movie", "year": 2023, "star": 5},
@@ -43,4 +43,6 @@ function render(contents) {
 // *
 // * Function Call:
 // *
-render(data);
+const renderData = data
+
+render(renderData);
