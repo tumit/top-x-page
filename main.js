@@ -41,6 +41,11 @@ function render(contents) {
 }
 
 // *
+// * Our Functions:
+// *
+
+
+// *
 // * Function Call:
 // *
 const renderData = data
